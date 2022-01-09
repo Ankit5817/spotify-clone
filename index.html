@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-For Music Lovers</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="section_1">
+        <img class="logo" src="logo.png" alt="">
+        <span class="logoName">Spotify</span>
+        <a class="info" href="#">Home</a>
+        <a class="info" href="#">About Us</a>
+    </div>
+
+    <div class="section_2">
+        <div class="list">
+            <div class="songBox">
+                <div class="song">
+                    <img class="audioImg" src="audio1img.JPG" alt="">
+                    <span>Dance Meri Rani</span>
+                    <img id="playB1" class="playB audioImg" src="play-button.png" alt="">
+                    <img id="pauseB1" class="audioImg pauseB" src="music.gif" alt="">
+                </div>
+                <div class="song">
+                    <img class="audioImg" src="audio2img.JPG" alt="">
+                    <span>Radhe Radhe</span>
+                    <img id="playB2" class="playB audioImg" src="play-button.png" alt="">
+                    <img id="pauseB2" class="audioImg pauseB" src="music.gif" alt="">
+                </div>
+                <div class="song">
+                    <img class="audioImg" src="audio3img.JPG" alt="">
+                    <span>Thoda Thoda Pyar</span>
+                    <img id="playB3" class="playB audioImg" src="play-button.png" alt="">
+                    <img id="pauseB3" class="audioImg pauseB" src="music.gif" alt="">
+                </div>
+                <div class="song">
+                    <img class="audioImg" src="audio4img.JPG" alt="">
+                    <span>Duaa Cover</span>
+                    <img id="playB4" class="playB audioImg" src="play-button.png" alt="">
+                    <img id="pauseB4" class="audioImg pauseB" src="music.gif" alt="">
+                </div>
+                <div class="song">
+                    <img class="audioImg" src="audio5img.JPG" alt="">
+                    <span>Lovely</span>
+                    <img id="playB5" class="playB audioImg" src="play-button.png" alt="">
+                    <img id="pauseB5" class="audioImg pauseB" src="music.gif" alt="">
+                </div>
+                <div class="song">
+                    <img class="audioImg" src="audio6img.JPG" alt="">
+                    <span>Burj Khalifa</span>
+                    <img id="playB6" class="playB audioImg" src="play-button.png" alt="">
+                    <img id="pauseB6" class="audioImg pauseB" src="music.gif" alt="">
+                </div>
+                <div class="song">
+                    <img class="audioImg" src="audio7img.JPG" alt="">
+                    <span>Bijli Bijli</span>
+                    <img id="playB7" class="playB audioImg" src="play-button.png" alt="">
+                    <img id="pauseB7" class="audioImg pauseB" src="music.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section_3">
+        <div class="musicInfo">
+            <span id="songName"></span>
+            <img id="musicGif" src="Cad.gif" alt="">
+        </div>
+        <input type="range" id="progressBar" min="0" value="0" max="100">
+        <div id="buttonSection">
+        <img class="button" id="previousButton" src="previous.png" alt="">
+        <img class="button" id="playButton" src="play.png" alt="">
+        <img class="button" id="pauseButton" src="pause.png" alt="">
+        <img class="button" id="nextButton" src="next.png" alt="">
+        </div>
+    </div>
+
+    <audio id="audio_1" >
+        <source src="audio_1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio_2">
+        <source src="audio_2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio_3">
+        <source src="audio_3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio_4">
+        <source src="audio_4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio_5">
+        <source src="audio_5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio_6">
+        <source src="audio_6.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio_7">
+        <source src="audio_7.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="index.js"></script>
+</body>
+
+
+</html>

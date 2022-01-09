@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(195, 255, 252);
+}
+.section_1{
+    height: 9.5vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 7vh;
+    padding: 0px 10px;
+}
+.logoName{
+    color: white;
+    font-family:fantasy;
+    font-size: 3vh;
+    padding: 0px 10px 0px 0px;
+}
+.info{
+    color:white;
+    font-size: 2vh;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+}
+.info:hover{
+    color: rgb(165, 165, 165);
+}
+
+.section_2{
+    height: 75.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    height: 60vh;
+    width: 50vw;
+    border-radius: 15px;
+    background-image:url("/young.jpg");
+    background-size: cover;
+    box-shadow:5px 5px 25px 10px #7f4cd1 ;
+}
+.songBox{
+    width: 20vw;
+    height: 52vh;
+    position: relative;
+    left: 25px;
+    top: 26.5px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.song{
+    width: 18vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    font-family:cursive;
+}
+.audioImg{
+    height: 3vh;
+    padding: 0px 5px 0px 15px ;
+    cursor: pointer;
+    
+}
+.playB{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.pauseB{
+    display: none;
+}
+
+.section_3{
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button{
+    width: 5vh;
+    padding: 0px 5px;
+}
+.button:hover{
+    cursor: pointer;
+}
+#pauseButton{
+    display: none;
+}
+#buttonSection{
+    display: flex;
+    margin-top: 10px;
+}
+#progressBar{
+    width: 80vw;
+    cursor: pointer;
+    margin-top: 4px;
+}
+#songName{
+    color: white;
+    font-family: cursive;
+}
+#musicGif{
+    height: 3vh;
+    display: none;
+    margin-left: 5px;
+}
+.musicInfo{
+    display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .list{
+        width: 75vw;
+    }
+    .songBox{
+        width: 65vw;
+    }
+    .song{
+        width: 60vw;
+        font-size: small;
+    }
+    .section_2{
+        height: 75.5vh;
+    }
+}
