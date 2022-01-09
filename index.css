@@ -42,7 +42,7 @@ body{
     height: 60vh;
     width: 50vw;
     border-radius: 15px;
-    background-image:url("/young.jpg");
+    background-image:url("young.jpg");
     background-size: cover;
     box-shadow:5px 5px 25px 10px #7f4cd1 ;
 }
